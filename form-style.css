@@ -1,0 +1,113 @@
+body{
+	position:relative;
+	background: url('pexels-photo-96381.jpeg');
+	background-size:cover;
+	margin:0;
+	height:100vh;
+	overflow:hidden;
+	font-family: 'Saira Condensed', sans-serif;
+}
+.heading{
+	
+	font-size: 5vh; 
+	color: white;
+	position: relative;
+	left: 10vw;
+}
+.column{
+	display: flex;
+}
+.individual-header {
+  width: 60vw;
+  margin-top: 6px;
+  position: relative;
+  margin-top: 2vh;
+  left: 12vw;
+  color: white; 
+  font-size: 2vh; 
+  }
+.input-val {
+  width: 60vw;
+  margin-top: 6px;
+  position: relative;
+  left: 12vw;
+}
+.extras{
+	position: relative; 
+	left: 12vw;
+}
+.addMember{
+	position: relative;
+	left: 26.5vw;
+}
+.sub-header{
+	font-size: 3vh; 
+	color: white; 
+	position: relative; 
+	left: 10vw; 
+	margin-top: 2vh;  
+	
+}
+
+input[type=text], select{
+  width: 60vw;
+  padding: 1vh;
+  background: rgb(104, 63, 8);
+  border: 2px solid black;
+}
+.sub-button{
+margin-left: 5vw; 
+padding: 2vh 3vw; 
+margin: 2vh 0 15vh 0;
+font-size: 2vh; 
+background: rgb(104, 63, 8);
+}
+.addmem{
+	padding: 2vh 3vw; 
+	margin-top: 3vh; font-size: 2vh; 
+	background: rgb(104, 63, 8);
+}
+input[type=submit] {
+    background-color: rgb(191, 139, 70);
+    color: white;
+   border: 2px solid black;
+    padding: 2vh 2vw;
+    margin-top: .5vh;
+    cursor: pointer;
+}
+@media all and (min-width:800px){
+	
+	
+
+	.extras{
+		position: absolute; 
+		top: 34vh; 
+		left: 56vw;
+	}
+
+	.individual-header {
+  	width: 30vw;
+  	margin-top: 6px;
+  	position: relative;
+  	margin-top: 2vh;
+  	left: 12vw;
+}
+
+	.input-val {
+  	width: 30vw;
+  	margin-top: 6px;
+ 	position: relative;
+  	left: 12vw;
+}
+
+
+	
+
+
+input[type=text], select{
+  width: 30vw;
+  padding: 1vh;
+  background: rgb(191, 139, 70);
+  border: 1px solid white;
+}
+}
