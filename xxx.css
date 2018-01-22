@@ -1,6 +1,14 @@
 ::-webkit-scrollbar{
 	display:none;
 }
+::-moz-scrollbar{
+	display:none;
+}
+
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
 body{
 	position:relative;
 	background: url('pexels-photo-96381.jpeg');
